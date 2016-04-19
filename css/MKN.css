@@ -1,0 +1,298 @@
+/*General CSS*/
+
+* {
+    font-family: monospace;
+    color: darkgray;
+}
+
+h2 {
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("http://chibisedit.ru/wp-content/uploads/2014/06/brick_texture___9_by_agf81-d3a20h2.jpg");
+    color: darkgray;
+    font-family: monospace;
+}
+
+.btn {
+    background-color: black;
+    color: azure;
+    border-style: groove;
+}
+
+@media (min-width: 500px) {
+    #cont1 {
+        float: left;
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 500px) {
+    #cont2 {
+        float: right;
+        max-width: 700px;
+    }
+}
+
+.jumbotron {
+    color: darkgrey;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#FormContainer {
+    padding: 100px;
+}
+
+
+/* Stylings for Omoss.html page */
+
+#omossbody {
+    color: darkgray;
+    font-family: monospace;
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-size: 18px;
+}
+
+#omossbody p {
+    font-size: 17px;
+}
+
+
+/* Slideshow image placement */
+
+#slideshow img {
+    position: absolute;
+    top: 22em;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+
+/* other styles*/
+
+header {
+    text-align: center;
+    height: 10em;
+    padding: 2em;
+}
+
+#sponsor {
+    font-size: 16px;
+}
+
+#cont1 {
+    margin-top: 500px;
+    display: inline-block;
+    width: 50%;
+}
+
+#cont2 {
+    display: inline-block;
+    margin-top: 500px;
+    width: 50%;
+    text-align: right;
+}
+
+#downcont {
+    background-image: url("http://chibisedit.ru/wp-content/uploads/2014/06/brick_texture___9_by_agf81-d3a20h2.jpg");
+}
+
+
+/* Footer settings */
+
+#home-footer {
+    margin-top: 45%;
+    height: 80px;
+    background-color: rgba(16, 16, 16, 0.9);
+}
+
+footer {
+    margin-bottom: 0%;
+}
+
+#email-footer {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+#social-media-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+#sponsor {
+    position: absolute;
+    right: 0;
+}
+
+#adress {
+    text-align: left;
+}
+
+
+/* Kontakt.html */
+
+.panel {
+    padding: 100px;
+    border: none;
+}
+
+#adress-panel {
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 0px;
+}
+
+#form-panel {
+    padding: 120px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
+.form-control {
+    background-color: lightgray;
+    color: black;
+}
+
+
+/* could not change from above css */
+
+#om-oss-search {
+    background-color: darkgrey;
+}
+
+#om-oss-btn {
+    background-color: black;
+    color: azure;
+    border-style: groove;
+}
+
+#omossbody img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Stylings for events.html page */
+
+.link-events {
+    font-size: 18px;
+    color: darkgrey;
+    font-weight: bolder;
+}
+
+#events-body img {
+    height: 100%;
+    width: 70%;
+}
+
+#events-body {
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
+
+#events-body .col-md-6 {
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 18px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* Stylings for nyheter.html page */
+
+#news-body img {
+    height: 100%;
+    width: 100%;
+}
+
+#news-body {
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-size: 18px;
+}
+
+
+/* Google Maps */
+
+#mapform {
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+nav {
+    background-color: black;
+    letter-spacing: 4px;
+}
+
+
+/* Extra functions*/
+
+div.semi-transparent {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.extra-padding {
+    padding-top: 5px;
+}
+
+.active-link {
+    background-color: #ff1493;
+}
+
+.top-space {
+    padding-top: 20px;
+}
+
+
+/* Video stylings */
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

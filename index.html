@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>MKN Arena AB</title>
+
+    <meta charset="UTF-8">
+
+    <!--To be mobile friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Connect to bootstrap-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Link to CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/MKN.css" />
+
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+
+    <!--  Link to JS file -->
+
+    <script type="text/javascript" src="js/slideshow.js"></script>
+
+</head>
+
+<body>
+
+    <!--HEADER-->
+
+    <div class="jumbotron text-center semi-transparent">
+        <img src="img/logomedium.png" />
+        <p>-här dansar man ihjäl sig</p>
+    </div>
+
+
+    <!--NAVIGATION BAR-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html"><img src="img/logosmall.png" alt="Logo"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active-link"><a href="index.html">Home</a></li>
+                    <li><a href="omoss.html">Om MKN Arena</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="nyheter.html">Nyheter</a></li>
+                    <li><a href="kontakt.html">Kontakta Oss</a></li>
+                </ul>
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="sök här">
+                    </div>
+                    <button class="btn btn-default" type="submit">Sök</button>
+                </form>
+
+                <div>
+                    <ul class="nav navbar-nav navbar-right" id="social-media-icons">
+                        <li>
+                            <a href="#"><img class="img-circle" src="img/facebook.png" alt="Facebook Icon"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="img-rounded" src="img/instagram.png" alt="Instagram Icon"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="img-circle" src="img/twitter.png" alt="Twitter Icon"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--SLIDESHOW-->
+
+    <div class="container-fluid" id="sscont">
+        <div id="slideshow">
+            <img src="http://www.pixelstalk.net/wp-content/uploads/2015/12/Graffiti-Black-and-White-Background.jpg" alt="Graffiti">
+            <img src="http://s2.favim.com/orig/34/art-bampw-black-and-white-graf-graffiti-Favim.com-277802.jpg" alt="Graffiti">
+            <img src="https://funkadelphia.files.wordpress.com/2014/04/pharoahe-monch-stage.jpg" alt="Consert Stage">
+            <img src="https://i.ytimg.com/vi/smA1KJr0O14/maxresdefault.jpg" alt="Hip Hop Bunny">
+        </div>
+    </div>
+
+    <div class="container-fluid" id="downcont">
+
+        <!--FOOTER container-->
+
+        <footer class="container-fluid navbar-fixed-bottom" id="home-footer">
+            <!--Address-->
+
+            <div class="col-md-4">
+                <p><span class="glyphicon glyphicon-map-marker"></span> Mölndalsvägen 81 41321 Göteborg</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 0046 321-7656</p>
+                <a href="#" id="email-footer"><span class="glyphicon glyphicon-envelope"></span> malinitimera@mknarena.se</a>
+            </div>
+
+            <!--MKN-->
+            <div class="col-md-4 text-center">
+                <h5><strong>&copy; MKN Arena AB, Sverige</strong></h5>
+            </div>
+
+            <!--Samarbetspartners-->
+
+            <div id="sponsor">Samarbetspartners:
+                <a href="http://www.biljettforum.se"><img src="img/biljettforumsmall.png" alt="Biljettforum Logo"></a>
+                <a href="http://www.bengans.se"><img src="img/benganssmall.png" alt="Bengans Logo"></a>
+                <a href="http://www.t-shirtstore.se"><img src="img/tssmall.png" alt="T-Shirt Store Logo"></a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
